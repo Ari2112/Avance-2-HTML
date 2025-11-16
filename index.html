@@ -1,80 +1,188 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio - Arianna Quirós</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Arianna Quirós Alpízar</h1>
-         <img src="arianna-foto.png" alt="Foto de Arianna Quirós" class="foto-perfil">
-        <p class="subtitulo">Portafolio personal</p>
-    </header>
+    <div class="pagina">
+        <header class="persona">
+            <h1>Arianna Quirós Alpízar</h1>
+            <p class="persona-puesto">Estudiante de Ingeniería en Sistemas • Web Developer Jr.</p>
 
-    <main>
-        <section id="acerca-de-mi">
-            <h2>Acerca de mí</h2>
-            <p>
-                Desde pequeña me ha gustado entender cómo funcionan las cosas, toda la vida me han dicho que estoy hecha para crear. Soy una persona alegre, perseverante y estoy apasionada por aprender, me encanta descubrir cosas nuevas, donde cada reto se convierte en una oportunidad para crecer. Actualmente curso la carrera de Ingeniería en Sistemas en la Universidad Internacional de las Américas, y me encuentro desarrollando mis habilidades técnicas y personales para seguir evolucionando profesionalmente.
-            </p>
-            <p>
-                 Fuera del ámbito académico, disfruto mucho aprender a tocar el violín y mejorar constantemente mi dominio del idioma inglés, pues considero que ambos me ayudan a fortalecer la disciplina y la concentración. Además, soy voluntaria en un hogar infantil, una experiencia que me llena profundamente, ya que desde pequeña siento una gran conexión con los niños y disfruto compartir con ellos momentos de aprendizaje y alegría.
-            </p>
-            <p>
-                 Soy una persona comprometida, optimista y con muchas ganas de seguir aprendiendo y creciendo, tanto a nivel personal como profesional.
-            </p>
-        </section>
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>
-                Me gusta equilibrar mi tiempo entre la tecnología y actividades que fomentan mi creatividad.
-            </p>
-            <ul>
-                <li>Tocar el violín — una pasión que me ha enseñado disciplina y constancia.</li>
-                <li>Leer — especialmente ficción e historical fiction.</li>
-                <li>Jugar videojuegos — me ayudan a relajarme y desarrollar pensamiento estratégico.</li>
-            </ul>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Resolución creativa de problemas</li>
-                <li>Comunicación asertiva y liderazgo</li>
-                <li>Trabajo en equipo multitask</li>
-                <li>Organización y gestión del tiempo</li>
-                <li>Escucha activa y empatía profesional</li>
-                <li>HTML y CSS básicos</li>
-                <li>Inglés avanzado</li>
-            </ul>
-        </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-            <ul>
-                <li>Ingeniería en Sistemas – Universidad Internacional de las Américas (2021 - Presente)</li>
-                <li>CCNA1v7 – Tecnológico de Costa Rica (2023)</li>
-                <li>Certificación CompTIA A+ – En progreso (2025)</li>
-                <li>Bachillerato en Educación Media – Liceo Experimental Bilingüe (2018 - 2020)</li>
-            </ul>
-        </section>
-        <section id="contacto">
-            <h2>Información de contacto</h2>
-            <ul>
-                <li><strong>Correo:</strong> ari.quiros02@gmail.com</li>
-                <li><strong>Teléfono:</strong> +506 8363-9498</li>
-                <li><strong>Ubicación:</strong> San José, Costa Rica</li>
-                <li><strong>Portafolio / GitHub:</strong> <a href="https://github.com/ariquiros" target="_blank">github.com/ariquiros</a></li>
-            </ul>
-        </section>
+            <img src="real.jpg" alt="Foto de Arianna Quirós" class="foto-perfil">
 
-    </main>
+            <p class="subtitulo">Portafolio personal & Currículum</p>
+        </header>
 
-    <footer>
-        <p>© 2025 Arianna Quirós</p>
-    </footer>
+        <main>
+            <section id="acerca-de-mi">
+                <h2>Acerca de mí</h2>
+                <p>
+                    Desde pequeña me ha gustado entender cómo funcionan las cosas, toda la vida me han dicho que estoy
+                    hecha para crear.
+                    Soy una persona alegre, perseverante y estoy apasionada por aprender, me encanta descubrir cosas
+                    nuevas, donde cada
+                    reto se convierte en una oportunidad para crecer. Actualmente curso la carrera de Ingeniería en
+                    Sistemas en la
+                    Universidad Internacional de las Américas, y me encuentro desarrollando mis habilidades técnicas y
+                    personales para
+                    seguir evolucionando profesionalmente.
+                </p>
+                <p>
+                    Fuera del ámbito académico, disfruto mucho aprender a tocar el violín y mejorar constantemente mi
+                    dominio del
+                    idioma inglés, pues considero que ambos me ayudan a fortalecer la disciplina y la concentración.
+                    Además, soy
+                    voluntaria en un hogar infantil, una experiencia que me llena profundamente, ya que desde pequeña
+                    siento una gran
+                    conexión con los niños y disfruto compartir con ellos momentos de aprendizaje y alegría.
+                </p>
+                <p>
+                    Soy una persona comprometida, optimista y con muchas ganas de seguir aprendiendo y creciendo, tanto
+                    a nivel
+                    personal como profesional.
+                </p>
+            </section>
+            <section id="habilidades" class="secciones-ilustradas">
+                <div class="section-text">
+                    <h2>Habilidades técnicas y blandas</h2>
+                    <ul class="habilidades-grid">
+                        <li>Resolución creativa de problemas</li>
+                        <li>Comunicación asertiva y liderazgo</li>
+                        <li>Trabajo en equipo multitask</li>
+                        <li>Organización y gestión del tiempo</li>
+                        <li>Escucha activa y empatía profesional</li>
+                        <li>HTML y CSS básicos</li>
+                        <li>Inglés avanzado</li>
+                    </ul>
+                </div>
 
+                <!-- Aquí va tu ilustración de Freepik de habilidades -->
+                <div class="secciones-ilustradas">
+                    <!-- Ejemplo: imagen tipo multitask businesswoman -->
+                    <img src="ocupada.jpg" alt="Ilustración de habilidades profesionales">
+                </div>
+            </section>
+            <!-- EDUCACIÓN + ILUSTRACIÓN -->
+            <section id="educacion" class="secciones-ilustradas section-education">
+            
+                <div class="section-text">
+                    <h2>Educación</h2>
+                    <div class="education-grid">
+                        <article class="education-card">
+                            <h3>Ingeniería en Sistemas</h3>
+                            <p class="education-institution">Universidad Internacional de las Américas</p>
+                            <p class="education-year">2021 - Presente</p>
+                        </article>
+
+                        <article class="education-card">
+                            <h3>CompTIA A+ (en progreso)</h3>
+                            <p class="education-institution">CompTIA</p>
+                            <p class="education-year">2025 - Presente</p>
+                        </article>
+
+                        <article class="education-card">
+                            <h3>CCNA1v7</h3>
+                            <p class="education-institution">Tecnológico de Costa Rica</p>
+                            <p class="education-year">2023</p>
+                        </article>
+
+                        <article class="education-card">
+                            <h3>Bachillerato en Educación Media</h3>
+                            <p class="education-institution">Liceo Experimental Bilingüe</p>
+                            <p class="education-year">2018 - 2020</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HOBBIES-->
+            <section id="hobbies">
+                <h2>Hobbies</h2>
+                <p class="section-intro">
+                    Me gusta equilibrar mi tiempo entre la tecnología y actividades que fomentan mi creatividad.
+                </p>
+
+                <div class="hobbies-grid">
+                    <article class="hobby-card">
+                        <img src="violin.png" alt="Icono de violín" class="hobby-icon">
+                        <h3>Tocar el violín</h3>
+                        <p>
+                            En mi tiempo libre disfruto tocar el violín. La música me ha enseñado disciplina, constancia
+                            y la importancia de practicar un poquito cada día.
+                        </p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <img src="libro.png" alt="Icono de libro" class="hobby-icon">
+                        <h3>Leer</h3>
+                        <p>
+                            Me encantan las novelas de ficción e historical fiction. Leer me ayuda a ampliar mi forma de
+                            ver el mundo y a imaginar nuevas ideas.
+                        </p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <img src="consola.png" alt="Icono de videojuego" class="hobby-icon">
+                        <h3>Videojuegos</h3>
+                        <p>
+                            Los videojuegos son mi forma favorita de relajarme y desarrollar pensamiento estratégico
+                            de manera divertida.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- CONTACTO -->
+            <section id="contacto">
+                <h2>Información de contacto</h2>
+
+                <div class="contact-grid">
+                    <p class="contact-intro">
+                    Si te interesa colaborar conmigo, hablar sobre algún proyecto o simplemente conectar,
+                        no dudes en escribirme!
+                    </p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <img src="gmail.png" alt="Icono de correo" class="contact-icon">
+                            <span><strong>Correo:</strong>
+                                <a href="mailto:ari.quiros02@gmail.com">ari.quiros02@gmail.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <img src="llamada-telefonica.png" alt="Icono de teléfono" class="contact-icon">
+                            <span><strong>Teléfono:</strong> +506 8363-9498</span>
+                        </li>
+                        <li>
+                            <img src="mapa.png" alt="Icono de ubicación" class="contact-icon">
+                            <span><strong>Ubicación:</strong> San José, Costa Rica</span>
+                        </li>
+                        <li>
+                            <img src="github.png" alt="Icono de GitHub" class="contact-icon">
+                            <span><strong>GitHub:</strong>
+                                <a href="https://github.com/ariquiros" target="_blank">github.com/ariquiros</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Arianna Quirós</p>
+        </footer>
+    </div>
 </body>
+
 </html>
