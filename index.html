@@ -10,78 +10,103 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap"
         rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <!-- Estilos del sitio -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="pagina">
-        <header class="persona">
+    <div class="pagina" data-aos="fade-up">
+        <header class="persona" data-aos="fade-down">
             <h1>Arianna Quirós Alpízar</h1>
             <p class="persona-puesto">Systems Engineering Student • Web Developer Jr.</p>
 
             <img src="real.jpg" alt="Photo of Arianna Quirós" class="foto-perfil">
 
             <p class="subtitulo">Personal Portfolio & Resume</p>
+
+            <div class="botones-hero">
+                <a href="#contacto" class="btn-primario">Let’s talk</a>
+                <a href="CV_AriannaQuiros.pdf" target="_blank" class="btn-secundario">
+                    Download CV
+                </a>
+            </div>
         </header>
 
         <main>
-            <section id="acerca-de-mi">
+            <!-- ABOUT ME -->
+            <section id="acerca-de-mi" data-aos="fade-up">
                 <h2>About Me</h2>
                 <p>
-                    Since I was little, I’ve always loved understanding how things work, and people have always told me I was made to create.
-I’m a cheerful and persevering person, passionate about learning and discovering new things, where every challenge becomes an opportunity to grow.
-I am currently studying Systems Engineering at the Universidad Internacional de las Américas, developing both my technical and personal skills to continue evolving professionally.
+                    Since I was little, I’ve always loved understanding how things work, and people have always told me
+                    I was made to create.
+                    I’m a cheerful and persevering person, passionate about learning and discovering new things, where
+                    every challenge becomes an opportunity to grow.
+                    I am currently studying Systems Engineering at the Universidad Internacional de las Américas,
+                    developing both my technical and personal skills to continue evolving professionally.
                 </p>
                 <p>
-                    Outside the academic field, I truly enjoy learning to play the violin and continuously improving my English skills, as I believe both help strengthen my discipline and concentration.
-I am also a volunteer at a children’s home, an experience that fulfills me deeply. Since I was young, I’ve felt a strong connection with children, and I genuinely enjoy sharing moments of learning and joy with them.
+                    Outside the academic field, I truly enjoy learning to play the violin and continuously improving my
+                    English skills, as I believe both help strengthen my discipline and concentration.
+                    I am also a volunteer at a children’s home, an experience that fulfills me deeply. Since I was
+                    young, I’ve felt a strong connection with children, and I genuinely enjoy sharing moments of
+                    learning and joy with them.
                 </p>
                 <p>
-                    I am a committed, optimistic person with a strong desire to continue learning and growing, both personally and professionally.
+                    I am a committed, optimistic person with a strong desire to continue learning and growing, both
+                    personally and professionally.
                 </p>
             </section>
-            <section id="habilidades" class="secciones-ilustradas">
+
+            <!-- SKILLS -->
+            <section id="habilidades" class="secciones-ilustradas" data-aos="fade-right">
                 <div class="section-text">
                     <h2>Technical and Soft Skills</h2>
                     <ul class="habilidades-grid">
                         <li>Creative Problem Solving</li>
-                        <li>Assertive Communication and Leadership</li>
-                        <li>Multitask Teamwork</li>
-                        <li>Organization and Time Management</li>
-                        <li>Active Listening and Professional Empathy</li>
-                        <li>Basic HTML and CSS</li>
+                        <li>Assertive Communication</li>
+                        <li>Leadership & Teamwork</li>
+                        <li>Multitasking</li>
+                        <li>Organization & Time Management</li>
+                        <li>Active Listening</li>
+                        <li>Professional Empathy</li>
+                        <li>Basic HTML & CSS</li>
                         <li>Advanced English</li>
                     </ul>
                 </div>
 
-                <div class="secciones-ilustradas">
+                <div class="section-illustration" data-aos="zoom-in" data-aos-delay="150">
                     <img src="ocupada.jpg" alt="Illustration of professional skills">
                 </div>
             </section>
-            <section id="educacion" class="secciones-ilustradas section-education">
-            
+
+            <!-- EDUCATION -->
+            <section id="educacion" class="secciones-ilustradas section-education" data-aos="fade-left">
                 <div class="section-text">
                     <h2>Education</h2>
                     <div class="education-grid">
-                        <article class="education-card">
+                        <article class="education-card" data-aos="fade-up" data-aos-delay="100">
                             <h3>Systems Engineering</h3>
                             <p class="education-institution">Universidad Internacional de las Américas</p>
                             <p class="education-year">2021 - Present</p>
                         </article>
 
-                        <article class="education-card">
+                        <article class="education-card" data-aos="fade-up" data-aos-delay="200">
                             <h3>CompTIA A+ (in progress)</h3>
                             <p class="education-institution">CompTIA</p>
                             <p class="education-year">2025 - Present</p>
                         </article>
 
-                        <article class="education-card">
+                        <article class="education-card" data-aos="fade-up" data-aos-delay="300">
                             <h3>CCNA1v7</h3>
                             <p class="education-institution">Tecnológico de Costa Rica</p>
                             <p class="education-year">2023</p>
                         </article>
 
-                        <article class="education-card">
+                        <article class="education-card" data-aos="fade-up" data-aos-delay="400">
                             <h3>High School Diploma</h3>
                             <p class="education-institution">Liceo Experimental Bilingüe</p>
                             <p class="education-year">2018 - 2020</p>
@@ -90,15 +115,15 @@ I am also a volunteer at a children’s home, an experience that fulfills me dee
                 </div>
             </section>
 
-            <!-- HOBBIES-->
-            <section id="hobbies">
+            <!-- HOBBIES -->
+            <section id="hobbies" data-aos="fade-up">
                 <h2>Hobbies</h2>
                 <p class="section-intro">
                     I like to balance my time between technology and activities that foster my creativity.
                 </p>
 
                 <div class="hobbies-grid">
-                    <article class="hobby-card">
+                    <article class="hobby-card" data-aos="zoom-in" data-aos-delay="100">
                         <img src="violin.png" alt="Violin icon" class="hobby-icon">
                         <h3>Playing the Violin</h3>
                         <p>
@@ -107,15 +132,16 @@ I am also a volunteer at a children’s home, an experience that fulfills me dee
                         </p>
                     </article>
 
-                    <article class="hobby-card">
+                    <article class="hobby-card" data-aos="zoom-in" data-aos-delay="200">
                         <img src="libro.png" alt="Book icon" class="hobby-icon">
                         <h3>Reading</h3>
                         <p>
-                            I love fiction and historical fiction novels. Reading helps me broaden my perspective and imagine new ideas.
+                            I love fiction and historical fiction novels. Reading helps me broaden my perspective and
+                            imagine new ideas.
                         </p>
                     </article>
 
-                    <article class="hobby-card">
+                    <article class="hobby-card" data-aos="zoom-in" data-aos-delay="300">
                         <img src="consola.png" alt="Video game icon" class="hobby-icon">
                         <h3>Video Games</h3>
                         <p>
@@ -124,32 +150,37 @@ I am also a volunteer at a children’s home, an experience that fulfills me dee
                     </article>
                 </div>
             </section>
-            <section id="contacto">
+
+            <!-- CONTACT -->
+            <section id="contacto" data-aos="fade-up">
                 <h2>Contact Information</h2>
 
                 <div class="contact-grid">
                     <p class="contact-intro">
-                    If you’re interested in collaborating with me, discussing a project, or simply connecting, feel free to reach out!
+                        If you’re interested in collaborating with me, discussing a project, or simply connecting, feel
+                        free to reach out!
                     </p>
 
                     <ul class="contact-list">
-                        <li>
+                        <li data-aos="fade-right" data-aos-delay="100">
                             <img src="gmail.png" alt="Email icon" class="contact-icon">
-                            <span><strong>Email</strong>
+                            <span>
+                                <strong>Email: </strong>
                                 <a href="mailto:ari.quiros02@gmail.com">ari.quiros02@gmail.com</a>
                             </span>
                         </li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-delay="200">
                             <img src="llamada-telefonica.png" alt="Phone icon" class="contact-icon">
-                            <span><strong>Phone:</strong> +506 8363-9498</span>
+                            <span><strong>Phone:</strong> +506 000-000</span>
                         </li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-delay="300">
                             <img src="mapa.png" alt="Location icon" class="contact-icon">
                             <span><strong>Location:</strong> San José, Costa Rica</span>
                         </li>
-                        <li>
+                        <li data-aos="fade-right" data-aos-delay="400">
                             <img src="github.png" alt="GitHub icon" class="contact-icon">
-                            <span><strong>GitHub:</strong>
+                            <span>
+                                <strong>GitHub: </strong>
                                 <a href="https://github.com/ariquiros" target="_blank">github.com/ariquiros</a>
                             </span>
                         </li>
@@ -158,10 +189,20 @@ I am also a volunteer at a children’s home, an experience that fulfills me dee
             </section>
         </main>
 
-        <footer>
+        <footer data-aos="fade-up" data-aos-offset="0">
             <p>© 2025 Arianna Quirós</p>
         </footer>
     </div>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true,
+            offset: 100
+        });
+    </script>
 </body>
 
 </html>
